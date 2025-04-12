@@ -1,0 +1,90 @@
+# This file will automatically update with entries for new content after a build and reload.
+
+Items: {
+	WhatDoesThisEvenDo: {
+		DisplayName: Mortar Sword (I can't pixel a mortar)
+		Tooltip:
+			'''
+			Hide your bloons.
+			Testing weapon, not meant to be part of gameplay
+			'''
+	}
+
+	BaseMortar: {
+		Tooltip: A powerful mortar that propells explosive shells at a slow rate
+		DisplayName: Base Mortar
+	}
+
+	ArtilleryCommand: {
+		DisplayName: Artillery Command
+		Tooltip:
+			'''
+			This is where the fun begins!
+			Allows the player to call in a rapidfire of artillery strikes to wherever they decide to click.
+			Max Ammo of 15, reloads shots over time. Must cool down for a long time once all ammo is used up at once.
+			'''
+	}
+
+	ClusterBombShooter: {
+		DisplayName: Cluster Bomb Shooter
+		Tooltip: Fires an explsive that splits into smaller version
+	}
+
+	RecursiveClusterBombShooter: {
+		DisplayName: Recursive Cluster Bomb Shooter
+		Tooltip: Fires an explosiove that can split up to 2 times
+	}
+
+	FungusSummon: {
+		DisplayName: EVIL Summon
+		Tooltip: Calls the Evil into this realm
+	}
+
+	AdminWeapon: {
+		DisplayName: Admin Weapon
+		Tooltip: Use code 6eg in the BTD6 shop
+	}
+
+	EvilSpores: {
+		DisplayName: Evil Spores
+		Tooltip: Spores left behind by a menacing enemy. Charged with evil power.
+	}
+
+	HoloFungusSummon: {
+		DisplayName: Holo Fungus Summon
+		Tooltip: Evil never rests.
+	}
+
+	MalfunctionedOrganism: {
+		DisplayName: Malfunctioned Organism
+		Tooltip: ""
+	}
+
+	MagicSeal: {
+		DisplayName: Magic Seal
+		Tooltip: ""
+	}
+}
+
+Projectiles: {
+	mortarProjectileBasic.DisplayName: mortar Projectile Basic
+	ClusterBombChild.DisplayName: Cluster Bomb Child
+	ClusterBombParent.DisplayName: Cluster Bomb Parent
+	MortarProjectileBasic.DisplayName: Mortar Projectile Basic
+	RecursiveClusterBombParent.DisplayName: Recursive Cluster Bomb Parent
+	TheTizard.DisplayName: The Tizard
+	ArcaneBlast.DisplayName: Arcane Blast
+}
+
+NPCs: {
+	TheFungus.DisplayName: The Fungus
+	PoisonMinion.DisplayName: Poison Minion
+	HoloFungus.DisplayName: Holo Fungus
+}
+
+Buffs: {
+	TizardBuff: {
+		DisplayName: Tizard Buff
+		Description: Mods.sixEG.Buffs.TizardBuff.Description
+	}
+}
