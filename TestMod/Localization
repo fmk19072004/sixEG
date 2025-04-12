@@ -1,1 +1,54 @@
-a
+Items: {
+	TestSword: {
+		DisplayName: Test Sword
+		Tooltip: ""
+	}
+
+	BigEvil: {
+		DisplayName: Big Evil
+		Tooltip: ""
+	}
+
+	No_Harvest: {
+		DisplayName: No_ Harvest
+		Tooltip: ""
+	}
+
+	GreenDoug: {
+		DisplayName: Green Doug
+		Tooltip: ""
+	}
+
+	TrueDoug: {
+		DisplayName: True Doug
+		Tooltip: ""
+	}
+
+	TruerExcalibur: {
+		DisplayName: Truer Excalibur
+		Tooltip: ""
+	}
+
+	TruesterExcalibur: {
+		DisplayName: Truester Excalibur
+		Tooltip: ""
+	}
+
+	TruestExcalibur: {
+		DisplayName: Truest Excalibur
+		Tooltip: ""
+	}
+
+	TruestestExcalibur: {
+		DisplayName: Truestest Excalibur
+		Tooltip: ""
+	}
+}
+
+Projectiles: {
+	GreenDougProj.DisplayName: Green Doug Proj
+	GreenDougHarvest.DisplayName: Green Doug Harvest
+	TrueDougHarvest.DisplayName: True Doug Harvest
+	TrueDougProj.DisplayName: True Doug Proj
+	TruestestExcaliburProj.DisplayName: Truestest Excalibur Proj
+}
