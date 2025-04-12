@@ -1,3 +1,0 @@
-displayName = testmod
-author = a
-version = 0.1
