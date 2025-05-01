@@ -1,0 +1,2 @@
+contains folders for each line of upgradable weapons.
+non upgradable weapons are stoed in parent folder
