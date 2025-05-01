@@ -1,0 +1,35 @@
+using Terraria;
+using Terraria.ID;
+using Terraria.ModLoader;
+using Terraria.Localization;
+using Microsoft.Xna.Framework;
+
+
+namespace sixEG.Content.Items.Accessories
+{
+    public class AgileLeatherBoots : ModItem
+    {
+        public override void SetDefaults()
+        {
+            Item.width = 40; 
+            Item.height = 40;
+            Item.accessory = true; // flag item ass accessory
+            Item.value = Item.sellPrice(gold: 1);
+            Item.rare = ItemRarityID.Purple; 
+        }
+
+        public override void UpdateAccessory(Player player, bool hideVisual)
+        {
+            player.moveSpeed += .05f; //base is 1 so this adds 5% of base
+            player.GetModPlayer<Content.Players.KnockbackResistPlayer>().knockbackReduction += 0.15f;
+        }
+
+        public override void AddRecipes() 
+        {
+            Recipe recipe = CreateRecipe();
+            recipe.AddIngredient(ModContent.ItemType<Accessories.ToughLeatherBoots>(), 1);
+            recipe.AddIngredient(ItemID.Aglet, 1);
+            recipe.Register();
+        }
+    }
+}
